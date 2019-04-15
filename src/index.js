@@ -1,17 +1,20 @@
-/** 入口JS */
+/**
+ * 应用入口
+ */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import store from './redux/redux';
-import App from './App'
+import App from './App';
+import './style.css'
+
+import { Provider } from 'react-redux';
+import store from './redux/store'
 
 
-ReactDOM.render( <App store={store} /> , document.getElementById('root'))
+import * as serviceWorker from './serviceWorker';
+ReactDOM.render((
+  <Provider store={store}>
+    <App />
+  </Provider>
+), document.getElementById('root'))
 
-// 绑定状态更新的监听, 一旦状态数据变化了, 立即回调
-store.subscribe(() => { 
-  console.log('-------')
-  // 移除div中原本组件标签
-  ReactDOM.unmountComponentAtNode(document.getElementById('root'))
-  // 再次渲染
-  ReactDOM.render(<App store={store}/>, document.getElementById('root'))
-})
+serviceWorker.unregister()

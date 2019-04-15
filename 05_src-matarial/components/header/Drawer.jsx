@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import Button from '@material-ui/core/Button';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
+import React, { Component } from './node_modules/react'
+import PropTypes from './node_modules/prop-types';
+import { withStyles } from './node_modules/@material-ui/core/styles';
+import SwipeableDrawer from './node_modules/@material-ui/core/SwipeableDrawer';
+import Button from './node_modules/@material-ui/core/Button';
+import List from './node_modules/@material-ui/core/List';
+import Divider from './node_modules/@material-ui/core/Divider';
+import ListItem from './node_modules/@material-ui/core/ListItem';
+import ListItemIcon from './node_modules/@material-ui/core/ListItemIcon';
+import ListItemText from './node_modules/@material-ui/core/ListItemText';
+import InboxIcon from './node_modules/@material-ui/icons/MoveToInbox';
+import MailIcon from './node_modules/@material-ui/icons/Mail';
 
 
 const styles = {

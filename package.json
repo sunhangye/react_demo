@@ -6,9 +6,11 @@
     "@material-ui/core": "^3.2.2",
     "@material-ui/icons": "^3.0.2",
     "axios": "^0.18.0",
+    "classnames": "^2.2.6",
     "homepage": "http://sunhangye666.github.io/myapp",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^5.0.7",
     "react-scripts": "2.1.8",
     "redux": "^4.0.1"
   },

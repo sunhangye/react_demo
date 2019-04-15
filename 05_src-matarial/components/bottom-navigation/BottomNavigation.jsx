@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import RestoreIcon from '@material-ui/icons/Restore';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import React from './node_modules/react';
+import PropTypes from './node_modules/prop-types';
+import { withStyles } from './node_modules/@material-ui/core/styles';
+import BottomNavigation from './node_modules/@material-ui/core/BottomNavigation';
+import BottomNavigationAction from './node_modules/@material-ui/core/BottomNavigationAction';
+import RestoreIcon from './node_modules/@material-ui/icons/Restore';
+import FavoriteIcon from './node_modules/@material-ui/icons/Favorite';
+import LocationOnIcon from './node_modules/@material-ui/icons/LocationOn';
 
 const styles = {
   root: {
