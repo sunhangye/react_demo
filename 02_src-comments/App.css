@@ -1,0 +1,18 @@
+.app-header {
+  text-align: center;
+}
+
+.logo {
+  width: 500px;
+  height: 500px;
+  animation: app-logo-spin infinite 20s linear;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}

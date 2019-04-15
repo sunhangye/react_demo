@@ -9,9 +9,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/App.js</code> and save to reload 666.
           </p>
-          <p>hello world</p>
+          <p>Hello World</p>
           <a
             className="App-link"
             href="https://reactjs.org"
