@@ -1,20 +1,29 @@
-import React, { Component } from 'react'
-import AddTodo from "./components/AddTodo";
-import TodoList from "./components/TodoList";
-import VisibilityFilters from "./components/VisibilityFilters";
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Todo List</h1>
-        <AddTodo />
-        <TodoList />
-        <VisibilityFilters />
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload 666.
+          </p>
+          <p>Hello World</p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
       </div>
-    )
+    );
   }
 }
-/**
- * https://codesandbox.io/s/qlxvnkvpmqhttps://codesandbox.io/s/qlxvnkvpmq
- */
+
+export default App;
